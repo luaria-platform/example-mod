@@ -1,0 +1,58 @@
+{
+  "Mod Info" : {
+    "MLModIconName" : "ModIcon",
+    "MLModIdentifier" : "com.julien.examplemod",
+    "MLModDeveloper" : "julien",
+    "MLModDevelopmentRegion" : "en",
+    "MLModDisplayName" : "Example Mod",
+    "MLModPackageType" : "MOD",
+    "MLModMainExecutable" : "init",
+    "MLModName" : "examplemod",
+    "MLModVersion" : "1.0"
+  },
+  "Build Type" : "DEBUG",
+  "Build Settings" : {
+    "Build Options" : {
+      "Allow Multi-Platform Builds" : true,
+      "Supported Platforms" : [
+        "iOS",
+        "Android"
+      ],
+      "Build Libraries for Distribution" : true,
+      "Compiler for lua" : "Default compiler (LUAC)"
+    },
+    "Packaging" : {
+      "ModInfo.json File" : "\/examplemod\/ModInfo.json",
+      "Product Mod Name" : "examplemod",
+      "Zip Info" : {
+        "Compression Level" : 9,
+        "Password" : "",
+        "Use AES Encryption" : true
+      },
+      "Generate ModInfo.json File" : true,
+      "Product Mod Identifier" : "com.julien.examplemod",
+      "Product Name" : "examplemod"
+    },
+    "Search Paths" : {
+      "Library Search Paths" : [
+        "\/ModLoader\/editor\/examplemod",
+        "\/ModLoader\/mods\/examplemod"
+      ]
+    },
+    "Deployment" : {
+      "Skip Install" : false,
+      "Strip Debug Imformation" : false,
+      "Installation Directory" : "\/ModLoader\/mods",
+      "Print Listing Imformation" : false
+    }
+  },
+  "Build Phases" : {
+    "Compile Sources" : [
+      "init.lua",
+      "main.lua"
+    ],
+    "Copy Mod Resources" : [
+      "ModIcon.png"
+    ]
+  }
+}

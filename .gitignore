@@ -1,0 +1,6 @@
+# Production
+Build/
+
+# Misc
+.DS_Store
+.vscode/
