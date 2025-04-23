@@ -47,7 +47,10 @@ end
 -- don't have to worry about it later on.
 --]]
 local function onModLoad()
-    loader.alert("Hi Dad!", "This is my first mod")
+    loader.alert(
+        "Hi Dad!",              -- loader.localizedString("onModLoad.alert.firstMod.title"),
+        "This is my first mod"  -- loader.localizedString("onModLoad.alert.firstMod.message")
+    )
 
     --[[
     -- Here we will register for the update callback, 

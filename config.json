@@ -52,7 +52,10 @@
       "main.lua"
     ],
     "Copy Mod Resources" : [
-      "ModIcon.png"
+      "ModIcon.png",
+      "Localization/en-US.i18n",
+      "Localization/fr-FR.i18n",
+      "Localization/ru-RU.i18n"
     ]
   }
 }

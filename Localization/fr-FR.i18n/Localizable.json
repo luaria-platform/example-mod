@@ -1,0 +1,10 @@
+{
+    "onModLoad": {
+        "alert": {
+            "firstMod": {
+                "title": "Salut Papa !",
+                "message": "C'est mon premier mod"
+            }
+        }
+    }
+}

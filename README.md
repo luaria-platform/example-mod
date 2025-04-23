@@ -1,10 +1,11 @@
 # Example Mod
-Every LuArian has a journey  
+Every LuArian has a journey
+
 ![Terraria App Icon](ModIcon.png)  
-_Update `ModIcon.png` to change your mods default logo._
+_Update `ModIcon.png` to change your mods default icon._
 
 ## Getting Started
-If you are new to LuAria mod development I would highly recommand you head over to our docs page and read the [Getting Started Guide](https://docs.luaria.app/category/getting-started)
+If you are new to LuAria mod development, we highly recommand you head over to our docs page and read the [Getting Started](https://docs.luaria.app/category/getting-started) guide.
 
 ## Build Instructions
 First lets start of by tapping on the 3 dots (⁝) icon in the top right corner of your mod folder, you will see multiple options:
